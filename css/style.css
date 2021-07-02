@@ -63,8 +63,7 @@ nav{
 }
 
 .middle-column{
-    height: 400px;
-    background-color: rebeccapurple;
+    height: 600px;
     margin: 0 25px;
     width: calc(60% - 50px);
 }
@@ -88,15 +87,59 @@ nav{
 }
  .side-column .img-side{
      background-size: cover;
-     background-position-x: left;
      border-radius: 10px;
-     height: 50%;
+     height: 200px;
      width: 100%;
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-1.jpg) ; 
 }
+/* side column */
+.side-column .text-column{
+    margin-top: 15px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif ;
+}
 
+.side-column .text-column p{
+    font-size: smaller;
+    color: rgb(128, 127, 127);
+}
 
+.side-column .text-column h4{
+    font-size:medium;
+    color: rgb(37, 37, 37);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.middle-column .img-middle{
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+   background-image: 
+   linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner-2.jpg) ; 
+}
+
+/* middle column */
+.middle-column .text-column{
+    margin-top: 15px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.middle-column .text-column p{
+    font-size: smaller;
+    color: rgb(128, 127, 127);
+}
+
+.middle-column .text-column h4{
+    font-size:medium;
+    color: rgb(37, 37, 37);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 #topic h3{
     font-weight: unset;
     font-weight: 800;
