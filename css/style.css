@@ -59,8 +59,7 @@ nav{
 .side-column{
     width: 20%;
     height: 400px;
-    background-color: rebeccapurple;
-
+    border-radius: 10px;
 }
 
 .middle-column{
@@ -70,16 +69,12 @@ nav{
     width: calc(60% - 50px);
 }
 
-
-
 .text-img{
     font-family: 'Montserrat', sans-serif ;
     color: ivory;
     width: 50%;
     /* height: 100%; */
     padding: 280px 0 0 50px;
-
-
     /* vertical-align: bottom;     */
 }
 
@@ -88,17 +83,21 @@ nav{
     height: 450px;  
     background-position:center;
     border-radius: 10px;
-    /* filter: grayscale(80%); */
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg) ; 
 }
-
-img.side-column{
-    background-size: cover;
+ .side-column .img-side{
+     background-size: cover;
+     background-position-x: left;
+     border-radius: 10px;
+     height: 50%;
+     width: 100%;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-1.jpg) ; 
 }
 
 
-#topic h2{
+#topic h3{
     font-weight: unset;
     font-weight: 800;
 }
