@@ -58,12 +58,10 @@ nav{
 
 .side-column{
     width: 20%;
-    height: 400px;
     border-radius: 10px;
 }
 
 .middle-column{
-    height: 600px;
     margin: 0 25px;
     width: calc(60% - 50px);
 }
@@ -78,20 +76,30 @@ nav{
 }
 
 .jumbo-img{
-    background-size: cover;
-    height: 450px;  
+    background-size: cover; 
+    min-height: 450px ;
     background-position:center;
     border-radius: 10px;
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg) ; 
 }
- .side-column .img-side{
-     background-size: cover;
-     border-radius: 10px;
-     height: 200px;
-     width: 100%;
+
+.img-side{
+    background-size: cover;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    background-position: center;
+}
+
+ .side-column .img-side-1{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-1.jpg) ; 
+}
+
+.side-column .img-side-2{
+   background-image: 
+   linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-3.jpg) ; 
 }
 /* side column */
 .side-column .text-column{
@@ -113,11 +121,6 @@ nav{
 }
 
 .middle-column .img-middle{
-    background-size: cover;
-    background-position:center;
-    border-radius: 10px;
-    height: 200px;
-    width: 100%;
    background-image: 
    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner-2.jpg) ; 
 }
@@ -164,11 +167,13 @@ nav{
 }
 
 #article{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #container-footer{
-    width: 100%;
-    height: 85px;
-    background-color: indianred;
+
+}
+
+#container-footer span::after{
+    content: "\01F49A";
 }
